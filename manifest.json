@@ -1,0 +1,10 @@
+{
+    "name": "Chrome extension project",
+    "version": "1.0", 
+    "description":" A simple Chrome extension ",
+    "manifest_version": 2,
+    "background":{
+        "scripts":["backgound.js"], 
+        "persistent":false
+    }
+}
