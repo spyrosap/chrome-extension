@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
-
+console.log('Plugin is running');
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function(){
         chrome.declarativeContent.onPageChanged.addRules([{
             conditions:[new chrome.declarativeContent.PageStateMatcher({
